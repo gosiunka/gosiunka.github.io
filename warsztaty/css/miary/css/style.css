@@ -1,0 +1,65 @@
+html{
+    font-size: 20px;
+}
+#container {
+    font-size: 10 px;
+}
+
+#container p {
+    margin-bottom: 15px;
+    background-color: rgba(0,255,255,0.6);
+    font-size: 30px;
+}
+
+#pixele {
+    width: 400px;
+}
+#em {
+     width: 2em;
+}
+#ex {
+    width: 20ex;
+    /* 1 rem =font size elementu html, 3 rem = 3 razy font size html*/
+}
+#rem {
+    width: 20rem;
+    
+}
+#procenty {
+    width: 50%;
+    
+}
+#vw {
+    width: 60vw;
+    
+}
+
+
+/*rzadko uzywane */
+#vh {
+    width:  60vh;
+    
+}
+/*jednostka jest generowane zaleznie od tego czy urzadzenie pionowe czy poziome  ktora jednostka jest mniejsza czy width czy height */
+#vmin {
+    width: 30vmin;
+}
+/*jednostka jest generowane zaleznie od tego czy urzadzenie pionowye czy poziome ktora jednostka jest wieksza czy width czy height */
+#vmax {
+    width: 100vmax;
+}
+#inch {
+    width: 4in;
+    color: blue;
+    
+}
+#cm {
+    width: 20cm;
+    
+}
+#mm { width: 200mm;
+    
+}
+#pt { width: 120pt;
+    
+}
