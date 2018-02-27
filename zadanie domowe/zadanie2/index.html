@@ -5,6 +5,43 @@
     <title>Document</title>
 </head>
 <body>
-    <p>zadanie 2</p>
+<form action="https://formspree.io/gosiunka@mail.com" method="POST">
+<label for=“name”></label>   
+<div><input type="text" name="name" placeholder="Imię"></div>
+       
+<label for=“surname”></label>   
+<div><input type="text" name="surname" placeholder="Nazwisko"></div>
+           
+<label for=“email”></label>   
+<div><input type="email" name="email" placeholder="email"></div>
+
+<label for=“phone”></label>   
+<div><input type="text" name="phone" placeholder="Numer telefonu"></div><br/>
+        
+<label for=“miasto”></label>   
+ 
+<form action="miasto">Miasto<br/>
+<select name="miasto">
+		<option>Kraków</option>
+		<option>Warszawa</option>
+		<option>Gdańsk</option>
+</select>
+</form><br/>
+<div>Płeć<br/>
+<label><input type="radio" name="plec"> Kobieta</label>
+</div>
+<div>
+<label><input type="radio" name="plec"> Mężczyzna</label>
+</div><br/>
+      
+<label for=“wiadomosc”></label>   
+<div><textarea name="wiadomosc" cols="30" rows="10" id="wiadomosc" placeholder="wiadomość">
+</textarea></div><br/>
+
+<label for="zgoda">Wyraź zgodę</label>
+<input type="checkbox" name="zgoda" id="zgoda"><br/>
+
+<div><input type="submit" value="Send"></div>
+</form>
 </body>
 </html>
