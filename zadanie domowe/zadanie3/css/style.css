@@ -1,0 +1,74 @@
+.kwadrat1,.kwadrat2,.kwadrat3, .kwadrat4, .kwadrat5, .kwadrat6, .kwadrat7, .kwadrat8, .kwadrat9
+{ width: 200px;
+    height: 200px;
+    position:relative;
+float:left;
+outline-style: solid;
+outline-width: medium;
+outline-color: white;
+   }
+
+.kolo1, .kolo2, .kolo3, .kolo4, .kolo5, .kolo6, .kolo7, .kolo8, .kolo9 {
+     width: 100px;
+    height: 100px;
+    position:absolute;
+border-radius:100%;
+box-shadow: 0 0 2pt 1pt black;
+        top: 50px;
+    left: 50px;
+
+
+}
+.kwadrat1 {background-color: red;
+}
+.kolo1 {
+    background-color: lightpink;
+}
+.kolo2 {
+    background-color: darkgrey;
+ }
+.kwadrat2 {
+    background-color: blue;
+  }
+.kwadrat3 {
+    background-color: green;
+}
+.kolo3 {
+    background-color: blueviolet;
+}
+.kwadrat4 {
+    background-color: yellow;
+}
+.kolo4 {
+    background-color: green;
+}
+.kwadrat5 {
+    background-color: black;
+}
+.kolo5 {
+    background-color: red;
+}
+.kwadrat6 {
+    background-color: orange;
+}
+.kolo6 {
+    background-color: blue;
+}
+.kwadrat7 {
+    background-color: fuchsia;
+}
+.kolo7 {
+    background-color: orange;
+}
+.kwadrat8 {
+    background-color: grey;
+}
+.kolo8 {
+    background-color: yellow;
+}
+.kwadrat9 {
+    background-color: lightpink;
+}
+.kolo9 {
+    background-color: black;
+}
