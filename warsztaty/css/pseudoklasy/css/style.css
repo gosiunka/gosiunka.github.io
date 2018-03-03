@@ -1,0 +1,12 @@
+#jeden::before { content: lalala
+}
+#drugi::after { content: lalala;}
+
+p::first-letter {color: aqua;}
+p::selection {color: bisque;}
+#p1:target {color:red;}
+a:link{color:yellowgreen;}
+a:visited{color: aquamarine;}
+.obejmujacy div:nth-child(even) {background: pink;}
+.obejmujacy div:nth-child(odd) {background: grey;}
+.obejmujacy div:nth-child(5n+4){background: green;}
