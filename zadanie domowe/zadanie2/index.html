@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="css/style.css">
 <body>
 <form action="https://formspree.io/gosiunka@mail.com" method="POST">
   
@@ -19,23 +20,22 @@
 	<div>
 	<label for="miasto">Miasto</label><br/>
 	<select id="miasto">
-		<option value="Krakow">KRAKOW</option>
-		<option value="Warszawa">WARSZAWA</option>
-		<option value="Gdansk">GDANSK</option>
+		<option value="Krakow">Krakow</option>
+		<option value="Warszawa">Warszawa</option>
+		<option value="Gdansk">Gdansk</option>
         </select></div><br/>
 	
-<div>Płeć:<br/>
-    <label for="plec">Kobieta</label><input type="radio" name="plec" value="kobieta" id="plec"> 
-
-    <label for="plecm">Mężczyzna</label>
-    <input type="radio" value="mezczyzna" name="plec" id="plecm"> 
-</div><br/>
+<div>Płeć:
+   <div>
+    <input type="radio" name="plec" value="kobieta" id="plec"><label for="plec">Kobieta</label></div> 
+    <div><input type="radio" value="mezczyzna" name="plec" id="plecm"> <label for="plecm">Mężczyzna</label></div> 
+</div>
         
 <div><textarea name="wiadomosc" cols="30" rows="10" id="wiadomosc" placeholder="wiadomość">
-</textarea></div><br/>
+</textarea></div>
 
-<label for="zgoda">Wyraź zgodę</label>
-<input type="checkbox" name="zgoda" id="zgoda"><br/>
+
+<input type="checkbox" name="zgoda" id="zgoda"><label for="zgoda">Wyraź zgodę na przetwarzanie danych osobowych</label>
 
 <div><input type="submit" value="Send"></div>
 </form>
