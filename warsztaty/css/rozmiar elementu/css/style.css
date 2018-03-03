@@ -1,0 +1,15 @@
+
+   /* elementy maja rozne rozmiary*/ 
+.box1, .box2 {
+    width:150px;
+    height:150px;
+    padding:10px;
+    border: black 5x solid;
+    background-color: aqua
+    
+}
+.box2{
+    box-sizing: border-box;}
+/*trzeba robic tak*/
+/*   *{box-sizing : border-box;}  */
+    

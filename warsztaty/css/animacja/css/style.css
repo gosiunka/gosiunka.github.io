@@ -1,0 +1,36 @@
+#box1, #box2, #box3{
+    width: 150px;
+    height: 150px;
+}
+#box1{
+    background-color: yellow;
+    transition: background-color 5s ease-in, 
+    width 5s ease-in ;
+}
+
+#box1:hover{
+background-color: red;
+width: 300px;
+transition: background-color 5s ease-in, 
+    width 5s ease-in; 
+}
+
+#box2{
+    background-color: blueviolet;
+transition: background-color 5s ease-in, 
+    height 5s ease-in; }
+#box2:hover{
+    background-color: darkred;
+height: 300px;
+}
+
+#box3{
+    background-color: blue;
+transition: color 5s ease-in, 
+width 5s ease-in;
+height 5s ease-in;
+}
+#box3:hover{
+    background-color: darkblue;
+width: 300px;
+height: 300px;}
