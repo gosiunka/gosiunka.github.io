@@ -1,0 +1,27 @@
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+    
+}
+.outer{
+    width:200px;
+    height: 200px;
+    background-color:bisque;
+    margin-left:auto;
+margin-right: auto;
+}
+.inner{
+    width:200px;
+    height: 200px;
+    background-color:red;
+margin-left:auto;
+margin-right: auto;
+}
+#cat { float: left; }
+#cat2 { float: right; }
+p:last-child {clear:both;}
+
+    
