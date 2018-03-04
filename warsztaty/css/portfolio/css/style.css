@@ -7,6 +7,9 @@ color:#291f1a;
 margin:0;
 font-weight: 300;}
 
+p { line-height: 25px;
+}
+
 #main-nav{
 width:100%;
 background-color:white;
@@ -114,7 +117,7 @@ figcaption {
 
 #portfolio .portfolio-item{
     width: 33%;
-    height: 300px;
+    height: 330px;
     background-size:cover;
     background-position: center;
     display: inline-block;
@@ -130,7 +133,7 @@ figcaption {
     
 #portfolio .portfolio-items #portfolio-item-3 { 
     background-size:cover;
-    background-image: url("../img/portfolio3.jpg");
+    background-image: url("../img/portfolio4.jpg");
  }
 
 #portfolio2:hover {   
@@ -140,8 +143,48 @@ zoom: 1;}
     
 .portfolio-item #portfolio3 { 
     background-size:cover;
-    background-image: url("../img/portfolio3.jpg");
+    background-image: url("../img/portfolio4.jpg");
     }
 
+#portfolio .portfolio-item-mask{
+    opacity:0;
+    background-color:rgba(42,61,79,0.8);
+    width: 100%;
+    height:100%;
+    position:absolute;
+    transition: all 0.3s ease-in-out;
+    font-size: initial;
+}
+#portfolio .portfolio-item-mask:hover{
+    opacity:1;
+}
 
+#portfolio .mask-content{
+    border: 1px solid #fff;
+    margin:10px;
+    position: relative;
+    height: 310px;
+}
 
+#portfolio .mask-content-inner {
+    color:#fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding; 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+#portfolio .mask-content-inner h5{
+    margin-top: 15px;
+    margin-bottom: 15px;}
+
+#portfolio .mask-content-inner h6{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+#portfolio .mask-content-inner .fa-link:hover{
+    color:aqua;
+}
