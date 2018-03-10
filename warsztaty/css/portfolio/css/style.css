@@ -65,7 +65,8 @@ section {
     background-color: #f9fcfe;
     
 }
-section h2, #mine h3, #portfolio h4 {
+section h2, #mine h3, #portfolio h4, 
+#wizytowka h1 {
     text-align: center;
     margin-top: 0,83em;
     margin-bottom: 0,83em;
@@ -73,7 +74,7 @@ section h2, #mine h3, #portfolio h4 {
     font-size: 30px;
 
 }
-section h2 span, #mine h3 span, #portfolio h4 span {
+section h2 span, #mine h3 span, #portfolio h4 span, #wizytowka h1 span {
     color:#1ac056;
     font-weight: 400;
     
@@ -188,3 +189,76 @@ zoom: 1;}
 #portfolio .mask-content-inner .fa-link:hover{
     color:aqua;
 }
+#stopka{
+    background-color:#213b50;
+    color:white;
+    overflow: hidden;
+}
+
+#wizytowka {
+display: block;
+width:50%;
+top:30px;
+position: relative;
+float: left;}
+
+
+#formularz {
+display: block;
+    float:right;
+    top:50px;
+    position: relative;
+
+    }
+#wizytowka h2 {
+    font-size: 14px;
+    line-height: 150%;
+}
+input[type="text"], input[type="email"], textarea{width: 300px; height:30px;
+    font-size: 10px;  
+}
+input[type="submit"]{background-color: #1ac056;}
+
+
+input, select, textarea {
+    background-color:#2b4a64;
+    border: #213b50 1px solid;
+    color:white; margin: 3px;
+    padding-left: 5px;
+ } 
+#wizytowka h1, #wizytowka h2 {
+    text-align: left;
+}
+#wyslij {
+    width:100px;
+    height:30px;
+    box-shadow:0 0 2px white;
+    border: none;
+    
+    
+}
+#wiadomosc{
+    height: 100px;
+}
+a:link
+	{
+		font-size: 15px;
+		color: green;
+		text-decoration: none;
+    }
+#stopka #wizytowka div {
+    padding-top: 30px;
+    font-size: 25px;
+}
+footer {
+ background-color: dimgrey;
+ color: white;
+ margin: none;
+    
+}
+
+@media (max-width: 600px) {
+
+
+
+
