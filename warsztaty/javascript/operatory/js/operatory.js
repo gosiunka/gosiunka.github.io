@@ -47,7 +47,7 @@ var czyWiosna ="tak";
 
 if ( liczba10 < liczba11 && czyWiosna == "tak")
     { console.log ("warunek spełniony");
-    }else {
+    } else {
         console.log ("warunek nie spełniony");
     }
 
