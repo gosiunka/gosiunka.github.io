@@ -42,5 +42,8 @@ console.log(imiona);
 //SPRAWDZENIE czy wartość w TABLICY istnieje
 console.log (imiona.indexOf( "Sandra" ));
 
-var newImiona = imiona.slice (1,2);
-console.log ( newImiona);
+//USUWANIE
+imiona.splice (5,1);
+console.log (imiona);
+
+
