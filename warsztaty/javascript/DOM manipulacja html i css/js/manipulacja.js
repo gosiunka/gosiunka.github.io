@@ -1,36 +1,60 @@
+//inner html - pobieranie
+var parFirst = document.getElementById("parFirst");
+//console.log(parFirst.innerHTML);
+//console.log(parFirst.outerHTML);
+//inner html - przypisanie wartosci
+var mainHeader = document.querySelector("h1");
+mainHeader.innerHTML = "<span>Nowa wartosc h1 wstawiona w span</span>";
+//zmiana styli
+mainHeader.style.color="blue";
+mainHeader.style.backgroundColor="red";
+
+//przypisanie klasy
+mainHeader.className = "headingtext"
+
+//pobranie klas elementu
+console.log(mainHeader.className);
+//classList dodawanie klasy
+mainHeader.classList.add("nowa-klasa");
+//classList usuwanie klasy
+mainHeader.classList.remove("headingtext");
+
+
+
+
 //pobieram istniejacy wezel o id output
-var istniejacyWezel = document.getElementById("output");
+//var istniejacyWezel = document.getElementById("output");
 //sprawdzam czy udalo sie go pobrac
 //console.log ( istniejacyWezel);
 
 //tworze nowy element html
-var newElement = document.createElement("p");
+//var newElement = document.createElement("p");
 
 //tworze tresc do paragrafu
-var newElementContent = document.createTextNode("tutaj tekst");
+//var newElementContent = document.createTextNode("tutaj tekst");
 //wstawiam nowoutworzony tekst do nowoutworzonego paragrafu
-newElement.appendChild(newElementContent);
+//newElement.appendChild(newElementContent);
 
-//dodaje do paragrafu atrybut clas'textpar' 1szy elemen
-newElement.setAttribute('class','tekstpar');
+//dodaje do paragrafu atrybut clas'textpar'
+//newElement.setAttribute('class','tekstpar');
 
 //console.log (newElement);
 // wstawiam nasz przygotowany paragraf do div#output
 
-istniejacyWezel.appendChild(newElement);
+//istniejacyWezel.appendChild(newElement);
 
 //usuwanie elementow z dokumentu 2 opcje
 //istniejacyWezel.parentElement.removeChild(istniejacyWezel);
-document.getElementById("parFirst").removeChild(istniejacyWezel);
+//document.getElementById("parFirst").removeChild(istniejacyWezel);
 
 //insertBefore
 
-var link = document.getElementsByClassName('superlink')[0];
-var br = document.createElement("br");
-link.parentElement.insertBefore(br, link);
+//var link = document.getElementsByClassName('superlink')[0];
+//var br = document.createElement("br");
+//link.parentElement.insertBefore(br, link);
 
 //usuwanieatrybutow
-link.removeAttribute('class');
+//link.removeAttribute('class');
 
 
 
