@@ -29,7 +29,7 @@ console.log( iloscElementowTablicy);
 
 //rozbijanie TABLICY na ciag tekstowy
 var elementyTablicyString = imiona.join(", ");
-//console.log (elementyTablicyString);
+console.log (elementyTablicyString);
 
 //odwrocenie TABLICY
 //imiona.reverse();
