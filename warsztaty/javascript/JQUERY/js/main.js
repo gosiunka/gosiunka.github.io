@@ -4,5 +4,6 @@ $(function (){
     
 // $(".title").css({color:"red", backgroundColor:"yelow"}); 
 // $("h2").css({color:"red", backgroundColor:"yelow"}); 
+    //z atrybutem tak
 $("[class=title]").css({color:"red", backgroundColor:"yelow"}); 
 });
