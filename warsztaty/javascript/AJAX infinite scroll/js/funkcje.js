@@ -5,7 +5,7 @@
 //});
 
 
-window.onscroll = function (ev) {
+window.onscroll = function (e) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         ajax("GET", "https://jsonplaceholder.typicode.com/users", wrzucDaneDoHTML)
     }

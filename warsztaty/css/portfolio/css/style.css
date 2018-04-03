@@ -256,9 +256,14 @@ footer {
  margin: none;
     
 }
+#main-nav input {
+        display:none;}
 
 @media (max-width: 600px) {
+  #main-nav ul{
+display: none;
+}
 
-
-
-
+#main-nav input:checked + ul {
+display: block;
+}
