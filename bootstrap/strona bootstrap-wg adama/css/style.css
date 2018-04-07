@@ -1,0 +1,7 @@
+#main-nav a{
+    color: #fff;
+}
+#main-header {
+    background-image: url(/img/BlackTransparentBackground.png),
+    url(../)
+}

@@ -1,0 +1,62 @@
+#bootstrap-project {
+    color: white;
+    font-family: Alegreya; 
+    font-size: 25px;
+    padding-left: 15px;
+}
+#headline{
+    font-size: 70px;
+   
+    
+}
+#naglowek {
+    font-size: 20px;
+     font-family: Alegreya; 
+    font-size: 35px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+btn btn-info btn-lg{
+    padding-top: 50px;
+}
+.col-4  {
+   
+}
+#lead{
+   
+    font-family: Alegreya; 
+    font-size: 25px;
+}
+#service{
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-top: 20px;
+
+}
+#tytulik1, #tytulik2, #tytulik3{
+     font-family: Montserrat;
+}
+#chmura {
+    color:blue;
+}
+#suitcase
+{
+   font-size: 20px;
+    color: aqua;
+}
+
+#main-nav { background-color: gray;
+opacity: 0.7;
+}
+
+#services .fas {
+    
+    background-color: #0ed8d6;
+    width: 80px;
+    height: 80px;
+    color: white;
+    border-radius: 50px;
+  
+}
+
