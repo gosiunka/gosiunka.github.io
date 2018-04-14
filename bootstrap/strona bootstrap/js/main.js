@@ -1,9 +1,38 @@
-//document.ready gwarantuje ze skrypty wywolaja sie w momencie gdy caly model DOM jest juz zaladowany to skrocony zapis document.ready:
-$(function (){
-   //w css wlasciwosci sa jako obiekt: 3 sposoby:
-    
-// $(".title").css({color:"red", backgroundColor:"yelow"}); 
-// $("h2").css({color:"red", backgroundColor:"yelow"}); 
-    //z atrybutem tak
-$("[class=title]").css({color:"red", backgroundColor:"yelow"}); 
+//$("a[href^='#']").on("click", function(e){
+//    e.preventDefault();
+//    $("html,body").animate(
+//    {scrollTop: $(this.hash).offset().top},
+//        600
+//        );
+//    
+//});
+//
+//
+//$("a[href='#services']").on("click", function(e){
+//    e.preventDefault();
+//    var target = $(this).attr('href');
+//    
+//    $("html,body").animate(
+//    {scrollTop: $(target).offset().top},
+//        600
+//        );
+//    
+//});
+//z elementem z htmla data costam 
+//$("a[href='#services']").on("click", function(e){
+//    e.preventDefault();
+//    var target = $(this).attr('data-section');
+//    
+//    $("html,body").animate(
+//    {scrollTop: $(target).offset().top},
+//        600
+//        );
+//    
+//});
+$("button[data-scrollto]").on('click', function(){
+    var target = $(this).attr("data-scrollto");
+    var topPosition = $(target).offset().top;
+    $("html,body").animate({scrollTop: TopPosition},700);
 });
+
+
